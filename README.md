@@ -16,7 +16,7 @@
 
 ## 📅 Sobre
 
-Aplicação ilustrativa de commerce de bonés para a loja fictícia Netcaps.  
+Aplicação ilustrativa de commerce de bonés para a loja fictícia Netcaps. Netcaps trabalha com muitos produtos da linha New Era.   
 
 ## 🛠 Tecnologias
 - [React Native](https://facebook.github.io/react-native/)
@@ -35,7 +35,7 @@ Para executar o projeto é necessário que você tenha o ambiente React Native c
 Depois de configurar o ambiente, basta fazer o clone do projeto:
 
 ```sh
-git clone https://github.com/JhonatanBergmann/Bate-Papo.git
+git clone https://github.com/JhonatanBergmann/Netcaps.git
 ```
 
 Entre na pasta do projeto e execute o comando para instalar as dependências do projeto:
