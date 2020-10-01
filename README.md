@@ -13,9 +13,9 @@
 </p>
 
 <p align="center">
-  <img src="assets/imgs/github/gif1.gif" alt="Demo" >
-  <img src="assets/imgs/github/gif2.gif" alt="Demo" >
-  <img src="assets/imgs/github/gif3.gif" alt="Demo" >
+  <img src="assets/imgs/github/gif1.gif" alt="Demo" width="300" height="650"  >
+  <img src="assets/imgs/github/gif2.gif" alt="Demo" width="300" height="650" >
+  <img src="assets/imgs/github/gif3.gif" alt="Demo" width="300" height="650" >
 </p>
 
 ## 📅 Sobre
