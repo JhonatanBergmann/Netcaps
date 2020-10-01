@@ -13,10 +13,11 @@
 </p>
 
 <p align="center">
-  <img src="x" alt="Demo" >
-  <img src="x" alt="Demo" >
-  <img src="x" alt="Demo" >
-  <img src="x" alt="Demo" >
+  <img src="assets/imgs/github/gif1.gif" alt="Demo" >
+</p>
+<p align="center">
+  <img src="assets/imgs/github/gif2.gif" alt="Demo" >
+  <img src="assets/imgs/github/gif3.gif" alt="Demo" >
 </p>
 
 ## 📅 Sobre
