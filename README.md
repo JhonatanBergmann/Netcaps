@@ -6,18 +6,12 @@
 
 <p align="center">Commerce de Bonés</p>
 
-<br>
-
-<p align="center">
-  <img src="x" alt="Mockup" >
-</p>
-
 <p align="center">
   <img src="assets/imgs/github/gif1.gif" alt="Demo">
 </p>
 <p align="center">
-  <img src="assets/imgs/github/gif2.gif" alt="Demo" width="260" height="580">
-  <img src="assets/imgs/github/gif3.gif" alt="Demo" width="260" height="580">
+  <img src="assets/imgs/github/gif2.gif" alt="Demo" width="270" height="580">
+  <img src="assets/imgs/github/gif3.gif" alt="Demo" width="270" height="580">
 </p>
 
 ## 📅 Sobre
