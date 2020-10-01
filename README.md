@@ -14,6 +14,8 @@
 
 <p align="center">
   <img src="assets/imgs/github/gif1.gif" alt="Demo" width="260" height="580"  >
+</p>
+<p align="center">
   <img src="assets/imgs/github/gif2.gif" alt="Demo" width="260" height="580" >
   <img src="assets/imgs/github/gif3.gif" alt="Demo" width="260" height="580" >
 </p>
