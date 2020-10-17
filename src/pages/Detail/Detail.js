@@ -1,10 +1,10 @@
 import React from 'react'
 import { 
-    View,
-    Text,
-    Image,
-    ScrollView,
-    StyleSheet  
+  View,
+  Text,
+  Image,
+  ScrollView,
+  StyleSheet  
 } from 'react-native'
 import { heightPercentageToDP as hp } from 'react-native-responsive-screen'
 

@@ -14,7 +14,7 @@ export default function Caps(props) {
         source={props.img}
         style={styles.capImg} />
       <Text style={styles.shoesText}>
-          {( props.children )}
+        {( props.children )}
       </Text>
       <View opacity={0.4}>
         <Text style={styles.capText}> {props.cost} </Text>
@@ -24,16 +24,16 @@ export default function Caps(props) {
 }
 
 const styles = StyleSheet.create({
-    container:{
-        paddingVertical: '2%',
-        alignItems: 'center',
-        justifyContent: 'center'
-    },
-    capImg:{
-        width: 175,
-        height: 175
-    },
-    capText:{
-        fontSize: 16
-    }
-});
+  container:{
+    paddingVertical: '2%',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  capImg:{
+    width: 175,
+    height: 175
+  },
+  capText:{
+    fontSize: 16
+  }
+})
