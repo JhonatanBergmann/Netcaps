@@ -1,5 +1,5 @@
 import React from 'react'
-import { 
+import {
   View,
   StyleSheet,
   ScrollView
@@ -16,43 +16,43 @@ export default function Forty() {
       <ScrollView>
 
         <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-          <Caps img={require('../../../assets/imgs/Forty/00001.png')} cost='R$180,99' 
+          <Caps img={require('../../../assets/imgs/Forty/00001.png')} cost='R$180,99'
             onClick={() => navigation.navigate('Detail')}>
-              NEW YORK YANKEES MLB
+            NEW YORK YANKEES MLB
           </Caps>
-          <Caps img={require('../../../assets/imgs/Forty/00002.png')} cost='R$120,99' 
+          <Caps img={require('../../../assets/imgs/Forty/00002.png')} cost='R$120,99'
             onClick={() => navigation.navigate('Detail')}>
-              OAKLAND ATHLETICS
-          </Caps> 
+            OAKLAND ATHLETICS
+          </Caps>
         </View>
 
         <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-          <Caps img={require('../../../assets/imgs/Forty/00003.png')} cost='R$120,99' 
+          <Caps img={require('../../../assets/imgs/Forty/00003.png')} cost='R$120,99'
             onClick={() => navigation.navigate('Detail')}>
-              NEW YORK YANKEES
+            NEW YORK YANKEES
           </Caps>
-          <Caps img={require('../../../assets/imgs/Forty/00004.png')} cost='R$135,00' 
+          <Caps img={require('../../../assets/imgs/Forty/00004.png')} cost='R$135,00'
             onClick={() => navigation.navigate('Detail')}>
-              CHICAGO WHITE SOX
-          </Caps> 
+            CHICAGO WHITE SOX
+          </Caps>
         </View>
 
         <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-          <Caps img={require('../../../assets/imgs/Forty/00005.png')} cost='R$140,00' 
+          <Caps img={require('../../../assets/imgs/Forty/00005.png')} cost='R$140,00'
             onClick={() => navigation.navigate('Detail')}>
-              ATLANTA BRAVES MLB
+            ATLANTA BRAVES MLB
           </Caps>
-          <Caps img={require('../../../assets/imgs/Forty/00006.png')} cost='R$75,99' 
+          <Caps img={require('../../../assets/imgs/Forty/00006.png')} cost='R$75,99'
             onClick={() => navigation.navigate('Detail')}>
-              NEW YORK GIANTS  
-          </Caps> 
+            NEW YORK GIANTS
+          </Caps>
         </View>
 
-      <View style={styles.line} />
-      <Footer />
+        <View style={styles.line} />
+        <Footer />
 
       </ScrollView>
-      
+
     </View>
   )
 }

@@ -1,26 +1,26 @@
 import React from 'react'
-import { 
-  View, 
-  Text, 
+import {
+  View,
+  Text,
   StyleSheet,
-  TouchableOpacity 
+  TouchableOpacity
 } from 'react-native'
 
 export default function Button() {
- return (
-  <View style={styles.container}>
+  return (
+    <View style={styles.container}>
       <TouchableOpacity style={styles.btnContainer}>
-          <Text style={styles.title}>COMPRAR</Text>
+        <Text style={styles.title}>COMPRAR</Text>
       </TouchableOpacity>
-  </View>
+    </View>
   )
 }
 
 const styles = StyleSheet.create({
   container: {
-    alignItems: 'center', 
+    alignItems: 'center',
     justifyContent: 'center'
-  }, 
+  },
   btnContainer: {
     width: 200,
     height: 50,

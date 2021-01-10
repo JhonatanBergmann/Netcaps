@@ -20,10 +20,10 @@ class Header extends Component {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#950000',
-    height: '7.5%', 
-    justifyContent: 'center', 
+    height: '7.5%',
+    justifyContent: 'center',
     alignItems: 'center',
-    shadowColor: "#000",shadowColor: "#000",
+    shadowColor: "#000",
     shadowOffset: {
       width: 0,
       height: 5
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     height: '60%',
     width: '30%',
     resizeMode: 'contain',
-    justifyContent: 'center', 
+    justifyContent: 'center',
     alignItems: 'center'
   }
 })

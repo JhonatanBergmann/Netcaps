@@ -1,22 +1,22 @@
 import React from 'react'
-import { 
-  View, 
+import {
+  View,
   Text,
-  StyleSheet, 
-  TouchableOpacity 
+  StyleSheet,
+  TouchableOpacity
 } from 'react-native'
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen'
 
 export default function SizeButton(props) {
- return (
-  <TouchableOpacity>
-    <View style={[ styles.container, { backgroundColor: props.bgColor || '#FFF' }]}>
-      <Text style={[ styles.text, { color: props.color || '#DDD' } ]}>
-        {props.children}
-      </Text>
-    </View>
-  </TouchableOpacity>
-  );
+  return (
+    <TouchableOpacity>
+      <View style={[styles.container, { backgroundColor: props.bgColor || '#FFF' }]}>
+        <Text style={[styles.text, { color: props.color || '#DDD' }]}>
+          {props.children}
+        </Text>
+      </View>
+    </TouchableOpacity>
+  )
 }
 
 const styles = StyleSheet.create({
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     borderColor: '#E6E6E6',
     borderWidth: 3,
     marginHorizontal: 10
-    }, 
+  },
   text: {
     color: '#FFF',
     fontSize: 20,

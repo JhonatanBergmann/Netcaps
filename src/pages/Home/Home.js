@@ -1,11 +1,11 @@
 import React from 'react'
-import { 
+import {
   View,
   Text,
   StyleSheet,
   ScrollView,
   Image,
-  TouchableOpacity, 
+  TouchableOpacity,
   Alert
 } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
@@ -17,34 +17,34 @@ import Header from '../../components/Header'
 
 export default function Home() {
   const navigation = useNavigation()
- return (
-  <View style={styles.container}>
-    <Header />
-    <View style={styles.header}>
-      <Image
-        style={styles.image} 
-        source={require('../../../assets/imgs/banner.png')} />
-      <View style={styles.textContainer}>
-        <Text style={styles.text}>NOVIDADES</Text>
+  return (
+    <View style={styles.container}>
+      <Header />
+      <View style={styles.header}>
+        <Image
+          style={styles.image}
+          source={require('../../../assets/imgs/banner.png')} />
+        <View style={styles.textContainer}>
+          <Text style={styles.text}>NOVIDADES</Text>
           <Icon
-            style={{ alignSelf: 'center', padding: 5, marginTop: 5 }} 
+            style={{ alignSelf: 'center', padding: 5, marginTop: 5 }}
             name='circle'
             size={15}
             color={'#950000'} />
           <Icon
-            style={{ alignSelf: 'center', padding: 5, marginTop: 5 }} 
+            style={{ alignSelf: 'center', padding: 5, marginTop: 5 }}
             name='circle'
             size={15}
-            color={'#F0AF37'} /> 
+            color={'#F0AF37'} />
           <Icon
-            style={{ alignSelf: 'center', padding: 5, marginTop: 5 }} 
+            style={{ alignSelf: 'center', padding: 5, marginTop: 5 }}
             name='circle'
             size={15}
-            color={'#5B6551'} />       
+            color={'#5B6551'} />
           <Text style={[styles.text, { color: '#950000' }]}>PARA VOCÊ</Text>
           <TouchableOpacity style={{ position: 'absolute', right: 0, alignSelf: 'center' }}
             onPress={() => Alert.alert('Clicou', 'Descrição...')}>
-            <Icon 
+            <Icon
               name='filter-alt'
               size={30}
               color='#000' />
@@ -54,19 +54,19 @@ export default function Home() {
       <View style={styles.line} />
       <ScrollView horizontal={false}>
 
-        <View style={{ alignItems:'center', justifyContent: 'center' }}>
+        <View style={{ alignItems: 'center', justifyContent: 'center' }}>
           <Banner img={require('../../../assets/imgs/1001.png')} onClick={() => navigation.navigate('Forty')} />
         </View>
 
-        <View style={{ alignItems:'center', justifyContent: 'center' }}>
+        <View style={{ alignItems: 'center', justifyContent: 'center' }}>
           <Banner img={require('../../../assets/imgs/2001.png')} onClick={() => navigation.navigate('HeatherPop')} />
         </View>
 
-        <View style={{ alignItems:'center', justifyContent: 'center' }}>
+        <View style={{ alignItems: 'center', justifyContent: 'center' }}>
           <Banner img={require('../../../assets/imgs/3001.png')} onClick={() => navigation.navigate('ClassicCaps')} />
         </View>
 
-        <View style={{ alignItems:'center', justifyContent: 'center' }}>
+        <View style={{ alignItems: 'center', justifyContent: 'center' }}>
           <Banner img={require('../../../assets/imgs/4001.png')} onClick={() => navigation.navigate('CapsCarrier')} />
         </View>
 
@@ -83,7 +83,7 @@ export default function Home() {
         </View>
 
       </ScrollView>
-   </View>
+    </View>
   )
 }
 
@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
     marginBottom: 10
   },
   image: {
-    width: '100%', 
+    width: '100%',
     height: 150
   },
   textContainer: {

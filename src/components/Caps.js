@@ -1,39 +1,39 @@
 import React from 'react'
-import { 
-    View, 
-    Text, 
-    TouchableOpacity, 
-    Image, 
-    StyleSheet 
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  Image,
+  StyleSheet
 } from 'react-native'
 
 export default function Caps(props) {
- return (
-   <TouchableOpacity style={styles.container} onPress={props.onClick}>
+  return (
+    <TouchableOpacity style={styles.container} onPress={props.onClick}>
       <Image
         source={props.img}
         style={styles.capImg} />
       <Text style={styles.shoesText}>
-        {( props.children )}
+        {(props.children)}
       </Text>
       <View opacity={0.4}>
         <Text style={styles.capText}> {props.cost} </Text>
       </View>
-   </TouchableOpacity>
+    </TouchableOpacity>
   )
 }
 
 const styles = StyleSheet.create({
-  container:{
+  container: {
     paddingVertical: '2%',
     alignItems: 'center',
     justifyContent: 'center'
   },
-  capImg:{
+  capImg: {
     width: 175,
     height: 175
   },
-  capText:{
+  capText: {
     fontSize: 16
   }
 })

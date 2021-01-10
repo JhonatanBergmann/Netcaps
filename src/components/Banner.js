@@ -1,5 +1,5 @@
 import React from 'react'
-import { 
+import {
   TouchableOpacity,
   Image,
   StyleSheet
@@ -7,13 +7,13 @@ import {
 import { heightPercentageToDP as hp } from 'react-native-responsive-screen'
 
 export default function Banner(props) {
- return (
-  <TouchableOpacity styles={styles.container}
-    onPress={props.onClick} >
+  return (
+    <TouchableOpacity styles={styles.container}
+      onPress={props.onClick}>
       <Image
         style={styles.capImg}
         source={props.img} />
-  </TouchableOpacity>
+    </TouchableOpacity>
   )
 }
 
@@ -25,6 +25,6 @@ const styles = StyleSheet.create({
   },
   capImg: {
     height: hp('42%'),
-    resizeMode: 'contain' 
+    resizeMode: 'contain'
   }
 })

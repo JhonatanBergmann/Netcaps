@@ -1,10 +1,10 @@
 import React from 'react'
-import { 
+import {
   View,
   Text,
   Image,
   ScrollView,
-  StyleSheet  
+  StyleSheet
 } from 'react-native'
 import { heightPercentageToDP as hp } from 'react-native-responsive-screen'
 
@@ -14,43 +14,43 @@ import Button from '../../components/Button'
 import Footer from '../../components/Footer'
 
 export default function Detail() {
- return (
-   <ScrollView style={styles.container}>
+  return (
+    <ScrollView style={styles.container}>
       <Image
-        style={styles.image} 
+        style={styles.image}
         source={require('../../../assets/imgs/HeatherPop/00004.png')}
         resizeMode='cover' />
       <View style={{ opacity: 0.5 }}>
-        <Text style={[ styles.title, { fontSize: hp('5%') }]}>950 NEW YORK</Text>
+        <Text style={[styles.title, { fontSize: hp('5%') }]}>950 NEW YORK</Text>
       </View>
       <View>
-        <View style={{ flexDirection:'row', justifyContent: 'space-between' }}>
-          <Text style={[ styles.title, { fontSize: hp('4%') }]}>
+        <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+          <Text style={[styles.title, { fontSize: hp('4%') }]}>
             R$ 159,99
           </Text>
-          <Text style={[ styles.title, { fontSize: hp('2%'), opacity: 0.5}]}>
+          <Text style={[styles.title, { fontSize: hp('2%'), opacity: 0.5 }]}>
             {'R$ 159,99 à vista com desconto ou\n5x de R$ 31,99 Sem juros'}
           </Text>
         </View>
 
         <View style={{ opacity: 0.5 }}>
-          <Text style={[ styles.title, { fontSize: 15 }]}>CORES DISPONÍVEIS</Text>
+          <Text style={[styles.title, { fontSize: 15 }]}>CORES DISPONÍVEIS</Text>
         </View>
         <View style={{ flexDirection: 'row', width: '100%' }}>
           <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
-            <Dot color='yellow'/>
-            <Dot color='blue'/>
-            <Dot color='gray'/>
-            <Dot color='beige'/>
-            <Dot color='black'/>
-            <Dot color='orange'/>
-            <Dot color='white'/>
-            <Dot color='pink'/>
+            <Dot color='yellow' />
+            <Dot color='blue' />
+            <Dot color='gray' />
+            <Dot color='beige' />
+            <Dot color='black' />
+            <Dot color='orange' />
+            <Dot color='white' />
+            <Dot color='pink' />
           </ScrollView>
         </View>
 
         <View style={{ opacity: 0.5 }}>
-          <Text style={[ styles.title, { fontSize: 15 }]}>ESCOLHA TAMANHO</Text>
+          <Text style={[styles.title, { fontSize: 15 }]}>ESCOLHA TAMANHO</Text>
         </View>
         <View style={{ flexDirection: 'row', width: '100%' }}>
           <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
@@ -77,7 +77,7 @@ export default function Detail() {
         <View style={styles.line} />
         <Footer />
       </View>
-   </ScrollView>
+    </ScrollView>
   )
 }
 
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
     flex: 1,
     width: '100%',
     backgroundColor: '#FFF'
-  }, 
+  },
   image: {
     width: '100%',
     height: 400,
@@ -95,20 +95,20 @@ const styles = StyleSheet.create({
   title: {
     fontFamily: 'Anton',
     paddingHorizontal: '2%'
-  }, 
+  },
   textContent: {
     fontSize: 16,
-    lineHeight: 25, 
-    marginHorizontal: '2%', 
+    lineHeight: 25,
+    marginHorizontal: '2%',
     paddingHorizontal: '2%',
-    marginTop: 10, 
+    marginTop: 10,
     fontFamily: 'NanumGothic'
-  }, 
+  },
   textTitle: {
     fontSize: 22,
     marginVertical: '2%',
     fontFamily: 'NanumGothic'
-  }, 
+  },
   line: {
     borderWidth: 1,
     borderBottomColor: '#DDD',
