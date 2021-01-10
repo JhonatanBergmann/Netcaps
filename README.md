@@ -29,11 +29,14 @@ Aplicação ilustrativa de commerce de bonés para a loja fictícia Netcaps. Net
 - [React Native](https://facebook.github.io/react-native/)
 - [Javascript](https://devdocs.io/javascript/)
 - [Node](https://nodejs.org/en/)
+<br/>-
 - [firebase](https://firebase.google.com/?hl=pt-br)
 - [react-native-responsive-screen](https://www.npmjs.com/package/react-native-responsive-screen)
 - [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 - [@react-navigation/native](https://reactnavigation.org/)
 - [@react-navigation/stack](https://reactnavigation.org/docs/stack-navigator/)
+
+*Foram usados outros Frameworks no projeto, mas esses são os principais.*
 
 ## 📱 Executando 
 
