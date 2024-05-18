@@ -11,7 +11,7 @@
   <img alt="Github License" src="https://img.shields.io/github/license/JhonatanBergmann/Netcaps" />
 </p>
 
-<p align="center">Commerce de Bonés</p>
+<p align="center">Sale of Caps</p>
 
 <p align="center">
   <img src="assets/imgs/github/gif1.gif" alt="Demo">
@@ -21,43 +21,37 @@
   <img src="assets/imgs/github/gif3.gif" alt="Demo" width="270" height="580">
 </p>
 
-## 📅 Sobre
+## 📅 About
 
-Aplicação ilustrativa de commerce de bonés para a loja fictícia Netcaps. Netcaps trabalha com muitos produtos da linha New Era.   
+Illustrative cap commerce application for the fictional Netcaps store. Netcaps works with many products from the New Era line.
 
-## 🛠 Tecnologias
+## 🛠 Technologies
+This project was developed with the following technologies:
+
 - [React Native](https://facebook.github.io/react-native/)
 - [Javascript](https://devdocs.io/javascript/)
-- [Node](https://nodejs.org/en/)
-<br/>-
-- [react-native-responsive-screen](https://www.npmjs.com/package/react-native-responsive-screen)
-- [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
-- [@react-navigation/native](https://reactnavigation.org/)
-- [@react-navigation/stack](https://reactnavigation.org/docs/stack-navigator/)
 
-*Foram usados outros Frameworks no projeto, mas esses são os principais.*
+## 📱 How To Use 
 
-## 📱 Executando 
+To execute the project it is necessary that you have the React Native environment configured, you can follow this [GUIA](https://reactnative.dev/docs/environment-setup).
 
-Para executar o projeto é necessário que você tenha o ambiente React Native configurado, você pode seguir esse [GUIA](https://reactnative.dev/docs/environment-setup) para tal.
-
-Depois de configurar o ambiente, basta fazer o clone do projeto:
+After setting up the environment, just clone the project:
 
 ```sh
-git clone https://github.com/JhonatanBergmann/netcaps-virtual-store.git
+git clone https://github.com/jhonbergmann/netcaps-virtual-store.git
 ```
 
-Entre na pasta do projeto e execute o comando para instalar as dependências do projeto:
+Enter the project folder and run the command to install the project's dependencies:
 
 ```sh
 yarn install
 ```
-ou
+or
 ```sh
 npm install
 ```
 
-Em seguida execute o comando referente a plataforma ao qual deseja executar:
+Then run the command for the platform you want to run on:
 
 Android:
 
@@ -65,12 +59,7 @@ Android:
 react-native run-android
 ```
 
-## 📝 Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 <p align="center">
- Feito com 💜 by Jhonatan Bergmann
+ Made with ♥ by Jhonatan Bergmann
 </p>
+
